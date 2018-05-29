@@ -1,0 +1,43 @@
+.contain {margin: 3% auto;}
+
+div.header h1 {
+	padding-top: 5%;
+	font-size: 60px;
+}
+
+div.header h3 {font-size: 30px;}
+
+.image {
+	margin: 10px auto;
+	border-radius: 4px;
+	background-color: #ffffff;
+	width: 850px;
+	height: auto;
+}
+
+.image p {
+	margin: 15px;
+	font-size: 15px;
+}
+
+.image img {width: 99%;}
+
+.wrap {
+	padding: 5% 20%;
+}
+
+.wrap h4 {font-size: 26px;}
+
+.wrap q,
+.wrap p:last-child {font-size: 24px;}
+
+/*== Mobile == */
+@media only screen and (max-width: 600px) {
+	div.header h1 {font-size: 30px;}
+	div.header h3 {font-size: 15px;}
+	div.wrap {padding: 5px;}
+	div.wrap h4 {font-size: 20px;}
+	div.wrap q,
+	div.wrap p:first-child,
+	div.wrap p:last-child {font-size: 17px;}
+}
