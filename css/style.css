@@ -33,11 +33,13 @@ div.header h3 {font-size: 30px;}
 
 /*== Mobile == */
 @media only screen and (max-width: 600px) {
-	div.header h1 {font-size: 30px;}
-	div.header h3 {font-size: 15px;}
+	div.header h1 {font-size: 2em;}
+	div.header h3 {font-size: 1em;}
 	div.wrap {padding: 5px;}
-	div.wrap h4 {font-size: 20px;}
+	div.wrap h4 {font-size: 1.2em;}
 	div.wrap q,
 	div.wrap p:first-child,
-	div.wrap p:last-child {font-size: 17px;}
+	div.wrap p:last-child {font-size: 1em;}
+	div.wrap p em {font-size: 0.5em;}
+	.image p {font-size: 0.5em;}
 }
